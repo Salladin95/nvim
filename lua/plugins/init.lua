@@ -252,7 +252,7 @@ end
 require("lazy").setup(default_plugins, config.lazy_nvim)
 
 -- Ctrl+w to save and close the buffer
-vim.api.nvim_set_keymap('n', '<C-w>', ':w | :bd<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('n', '<C-w>', ':w | :bd<CR>', { noremap = true, silent = true })
 
 -- Map 'jj' to exit insert mode
 vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
